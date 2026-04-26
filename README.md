@@ -2,8 +2,11 @@
 UTS Machine Learning 
 
 Nama : Nurdiansyah Pratama
+
 NIM : 1237050139
+
 Kelas : C
+
 Dosen Pengampu : Pak H. Aldy Rialdy Atmadja M.T.
 
 📌 Latar Belakang
