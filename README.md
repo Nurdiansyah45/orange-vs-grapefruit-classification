@@ -1,6 +1,19 @@
 # orange-vs-grapefruit-classification
 UTS Machine Learning 
 
+📌 Latar Belakang
+
+Klasifikasi buah merupakan salah satu penerapan machine learning dalam pengolahan data berbasis fitur numerik. Pada dataset yang digunakan, terdapat dua jenis buah yaitu orange dan grapefruit, yang memiliki karakteristik fisik yang mirip namun dapat dibedakan melalui atribut seperti diameter, berat, dan warna.
+
+Agar dapat diproses oleh algoritma machine learning, label kategorikal perlu diubah menjadi bentuk numerik. Pada penelitian ini dilakukan proses encoding label dengan skema:
+
+0 = orange
+1 = grapefruit
+
+Transformasi ini memungkinkan model untuk melakukan proses pembelajaran secara matematis dalam membedakan kedua kelas berdasarkan pola data yang ada.
+
+Dengan pendekatan ini, diharapkan model mampu melakukan klasifikasi secara akurat dan dapat dibandingkan performanya menggunakan beberapa algoritma yang berbeda.
+
 ## 📈 Hasil dan Analisis
 
 ### 🔢 Hasil Evaluasi Model
@@ -84,6 +97,23 @@ Dari hasil eksperimen, dapat disimpulkan bahwa:
 * Evaluasi model tidak cukup hanya melihat accuracy, tetapi juga precision, recall, dan F1-score
 
 ---
+
+### 📊 Analisis ROC Curve
+
+ROC Curve digunakan untuk mengevaluasi kemampuan model dalam membedakan antara dua kelas.
+
+Berdasarkan grafik ROC:
+
+* Model dengan nilai AUC tertinggi memiliki performa terbaik
+* Kurva yang mendekati sudut kiri atas menunjukkan klasifikasi yang lebih akurat
+
+Hasil menunjukkan bahwa:
+
+* Decision Tree dan SVM memiliki performa yang sangat baik
+* Naive Bayes sedikit lebih rendah namun tetap stabil
+
+Hal ini mengindikasikan bahwa sebagian besar model mampu memisahkan kedua kelas dengan baik berdasarkan fitur yang tersedia.
+
 
 ### ✅ Kesimpulan
 
